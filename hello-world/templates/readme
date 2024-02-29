@@ -1,0 +1,7 @@
+For Emmet to be able to recognice .tmpl
+I needed to add ctr+shift+p "Open settings"
+Then add:
+
+"files.associations": {
+    "*.tmpl": "html"
+  }
