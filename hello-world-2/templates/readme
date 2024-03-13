@@ -1,0 +1,26 @@
+For Emmet to be able to recognice .tmpl
+I needed to add ctr+shift+p "Open settings"
+Then add:
+
+"files.associations": {
+    "*.tmpl": "html"
+  }
+
+=================================================================
+
+To create a Go module. This app uses Go
+Import third party packages
+This app uses all the standard library and also uses external dependencies
+$ go mod init myapp e.g (github.com/rodsilva/go-course)
+
+===================================================================
+
+Packages always lives under their own directories
+
+====================================================================
+
+How to run program?
+
+go run cmd/web/*.go
+or
+go run ./cmd/web
