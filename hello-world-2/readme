@@ -1,5 +1,5 @@
 For Emmet to be able to recognice .tmpl
-I needed to add ctr+shift+p "Open settings"
+I needed to add ctr+shift+p "Open User Settings (JSON)"
 Then add:
 
 "files.associations": {
@@ -24,3 +24,13 @@ How to run program?
 go run cmd/web/*.go
 or
 go run ./cmd/web
+
+====================================================================
+
+Import from Github
+go get -u github.com/go-chi/chi/v5
+
+Clean unused modules from go.mod
+go mod tidy
+
+
